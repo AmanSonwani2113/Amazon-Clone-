@@ -1,0 +1,298 @@
+* {
+
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box;
+    
+}
+
+
+#navbar{
+    height:60px;
+    width:100%;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items:center;          /*  cross axis */
+    justify-content:space-evenly;
+}
+.nav-logo{
+height:50px;
+width:110px;
+}
+.logo{
+    height:50px;
+    width:110px;
+    background-image:url("amazonlogo.jpeg");
+    background-size:cover;
+}
+.border{
+    border:2px solid transparent;
+
+}
+
+.border:hover{
+border:2px solid white;
+}
+
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+.address-first{
+color:rgb(230, 216, 216);
+font-size:0.85rem;
+margin-left:15px;
+}
+.address-second{
+font-size:1rem;
+margin-left:3px;
+}
+.search-navbar{
+    display:flex;
+background-color:pink;
+width:620px;
+height:40px;
+justify-content:center;
+align-items:center;
+justify-content:space-evenly;
+border-radius:4px;
+}
+.search-bar{
+    width:100%;
+    height:40px;
+    border:none;
+    font-size: 1rem;
+    padding-left: 15px;
+}
+.search{
+    width:50px;
+    height:40px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    background-color:#f3f3f3;
+    border:none;
+  text-align:center;
+  
+}
+.search-navbar:hover{
+    border:2px solid orange;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    color:#0f1111;background-color:#f08804;
+    font-size:1.2rem;
+    height:40px;
+    align-items:center;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.select-country{
+    color:white;
+}
+.nav-signin{
+    font-size:0.7rem;
+    padding:5px;
+}
+.n-second{
+    font-size:0.85rem;
+    font-weight:700;
+}
+.nav-return{
+    font-size:0.7rem;
+}
+.cart i{
+  
+    font-size:35px;
+}
+.cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+ .panel{
+    height:45px;
+    width:100%;
+    background-color:#222f3d;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.panel-content{
+    width:80%;
+    font-size:0.85rem;
+}
+
+.panel-content a{
+text-decoration:none;
+margin-left:20px;
+display: inline;
+}
+a:hover{
+    color:#f08804;
+}
+.deals{
+    color:white;
+text-decoration:none;
+font-size:0.9rem;
+font-weight:700;
+margin: 0;
+}
+.hero-section{
+    height:400px;
+    background-image:url("hero-image.jpeg");
+    background-size:cover;
+     display:flex;
+    justify-content:center;
+    align-items:flex-end;
+ 
+
+}
+.nav-1{
+    height:40px;
+    width:80%;
+    background-color:white;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+}
+a{
+    text-decoration:none;
+}
+.nav-1 a{
+    display:inline;
+    color:rgba(67, 178, 225, 0.968);
+}
+.nav-1 a:hover{
+    color:#f08804;
+}
+.box{
+   height: 400px;
+   width: 23%;
+   /* border:2px solid black; */
+   background-color:white;
+   margin-bottom:30px;
+   padding:20px 0px 15px;
+}
+.shop-section{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#f3f3f3;
+    justify-content:space-evenly;
+    padding-top:20px;
+}
+.box1-image{
+    height:300px;
+    background-image:url("health-&-personal-care.jpeg");
+    background-size:cover;
+}
+.box2-image{
+    height:300px;
+    background-image:url("gaming-accessories.jpeg");
+    background-size:cover;
+}
+.box3-image{
+    height:300px;
+    background-image:url("Home & Kitchen Under $30.jpeg");
+    background-size:cover;
+}
+.box4-image{
+    height:300px;
+    background-image:url("electronics.jpeg");
+    background-size:cover;
+}.box5-image{
+    height:300px;
+    background-image:url("new arrivals in toys.jpg");
+    background-size:cover;
+}
+.box6-image{
+    height:300px;
+    background-image:url("shop-school-essential.jpeg");
+    background-size:cover;
+}
+.box7-image{
+    height:300px;
+    background-image:url("Toys .jpeg");
+    background-size:cover;
+}
+.box8-image{
+    height:300px;
+    background-image:url("discover fashion trends.jpg");
+    background-size:cover;
+}
+.box a{
+color:rgba(67, 178, 225, 0.968);
+}
+.box-content{
+    margin-left:1rem;
+    margin-right:1rem
+}
+.marg{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-sec1{
+    height: 40px;
+    background-color: #27384a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-top: #4a596a;
+}
+.footer-sec2{
+    height:400px;
+    background-color: #222f3d;
+    
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+   padding-top: 40px;
+}
+.footer-sec2-a{
+    height:70px;
+    background-color: #222f3d;
+
+}
+.footer-sec3{
+    height:70px;
+    background-color: #18212a;
+    text-align:center;
+    color: white;
+}
+.border-highlight{
+    border-bottom: 1px solid black;
+}
+ul,a{
+    display:block;
+    font-size:0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+.footer-sec2-a {
+    border-top:0.1
+    px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec2-logo{
+height:50px;
+width:130px;
+background-image:url("amazonlogo.jpeg");
+background-size: cover;
+}
+.hii{
+    padding: 15px;
+}
+.box:hover{
+    box-shadow:2px 2px 7px black;
+}
